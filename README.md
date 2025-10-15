@@ -45,7 +45,7 @@ install.packages(c("shiny", "dplyr", "ggplot2", "tidyr", "zoo", "readr"))
 ## How to Run the App
 
 Download or clone this repository:
-git clone https://github.com/YOUR-USERNAME/CentralBankDashboard.git
+git clone https://github.com/madusha-projects/CentralBankDashboard.git
 
 Open the project folder in RStudio.
 
