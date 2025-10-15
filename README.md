@@ -1,4 +1,4 @@
-# 🏦 Central Bank Dashboard (Sri Lanka)
+# Central Bank Dashboard (Sri Lanka)
 
 This project is an **interactive Shiny dashboard** built in **R** to visualize and analyze key macroeconomic indicators related to the **Central Bank of Sri Lanka**.  
 It uses data obtained from the **World Bank API**, focusing on important indicators such as GDP growth, inflation, interest rates, money supply, and exchange rates.
@@ -93,7 +93,6 @@ Include summary statistics and correlation analysis
 
 Add export/download options for users
 
-Deploy live app using shinyapps.io
 
 ## Author
 
@@ -104,9 +103,7 @@ University Project using R and Shiny
 
 ## License
 
-This project is open-source under the MIT License
-.
-You are free to use, modify, and share it with proper attribution.
+This project is open-source under the MIT License.
 
 ## Acknowledgments
 
