@@ -56,6 +56,9 @@ runApp("app.R")
 
 
 The dashboard will open in your web browser.
+## Live Demo
+Try the dashboard online: [Central Bank Dashboard](https://madusharajapaksha.shinyapps.io/CentralBankDashboard/)
+
 
 ## How It Works
 
