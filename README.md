@@ -5,7 +5,7 @@ It uses data obtained from the **World Bank API**, focusing on important indicat
 
 ---
 
-## 📊 Features
+## Features
 
 - Interactive selection of economic indicators  
 - Dynamic line plots for year-wise trends  
@@ -16,7 +16,7 @@ It uses data obtained from the **World Bank API**, focusing on important indicat
 
 ---
 
-## 📁 Dataset Information
+##  Dataset Information
 
 The dataset used here is a cleaned version of World Bank economic data for Sri Lanka.  
 It includes yearly data for multiple indicators such as:
@@ -34,15 +34,15 @@ If you want to explore your own indicators, you can download the data directly f
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 Make sure you have **R** and **RStudio** installed.  
 Then, install the following packages before running the app:
 
-```r
+`r
 install.packages(c("shiny", "dplyr", "ggplot2", "tidyr", "zoo", "readr"))
 
-▶️ How to Run the App
+## How to Run the App
 
 Download or clone this repository:
 git clone https://github.com/YOUR-USERNAME/CentralBankDashboard.git
@@ -57,7 +57,7 @@ runApp("app.R")
 
 The dashboard will open in your web browser.
 
-🧠 How It Works
+## How It Works
 
 The app loads cleaned indicator data from the CSV file.
 
@@ -69,15 +69,8 @@ Missing values are optionally filled using linear interpolation (zoo::na.approx)
 
 A simple table shows the most recent data for the selected indicator.
 
-🧩 Project Structure
-CentralBankDashboard/
-│
-├── app.R                        # Main Shiny application code
-├── clean_centralbank_indicators2.csv  # Clean dataset
-├── README.md                    # Project documentation (this file)
-└── .gitignore                   # Files to ignore in Git
 
-🧰 Technologies Used
+##  Technologies Used
 
 R (Programming Language)
 
@@ -89,7 +82,7 @@ dplyr / tidyr (Data Wrangling)
 
 zoo (Interpolation for missing values)
 
-🌐 Future Improvements
+## Future Improvements
 
 Add comparison of multiple indicators on the same graph
 
@@ -99,25 +92,23 @@ Add export/download options for users
 
 Deploy live app using shinyapps.io
 
-👩‍💻 Author
+## Author
 
 Madusha Dilrukshi
 BSc (Hons) in Financial Mathematics and Industrial Statistics
 Individual Project – Central Bank Indicators Dashboard
 University Project using R and Shiny
 
-📜 License
+## License
 
 This project is open-source under the MIT License
 .
 You are free to use, modify, and share it with proper attribution.
 
-🌟 Acknowledgments
+## Acknowledgments
 
-World Bank Open Data
- for providing the dataset
+World Bank Open Data for providing the dataset
 
-RStudio
- for the development environment
+RStudio for the development environment
 
 The Central Bank of Sri Lanka for the research inspiration
